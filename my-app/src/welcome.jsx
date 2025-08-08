@@ -1,6 +1,6 @@
 import React from 'react';
 const Greeting =()=>{
-let Name="abdul";
+//let Name="abdul";
     return(
         <div>
             <h1>My name</h1>
