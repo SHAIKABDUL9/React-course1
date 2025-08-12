@@ -4,7 +4,7 @@ const Greeting =()=>{
     return(
         <div>
             <h1>My name</h1>
-            <p>Names</p>
+            <p>ABDUL</p>
             <button>click here</button>
         </div>
     );
