@@ -22,7 +22,10 @@ import './App.css';
 //import {GetRequest,AxiosGetRequest} from './Components/API/GetRequest.js';
 //import {PostPutPatchDel ,PostPutPatchDelAxios} from './Components/API/PostPutPatchDel.js'
 
-import { LoginButton,LoginWithProps } from './Components/LoginTest/LoginButton';
+//import { LoginButton,LoginWithProps } from './Components/LoginTest/LoginButton';
+//import UseMemo from './Components/Memoization/UseMemo';
+import UseCallBackParent from './Components/Memoization/UseCallBackParent';
+
 
 function App() {
   const products=[{name:'samsung',price:25000,description:'mobile'},
@@ -45,12 +48,14 @@ function App() {
     {/*<RefCounter />*/}
     {/* <GetRequest/> */}
     {/* <AxiosGetRequest/> */}
+    {/* <PostPutPatchDel/>  */}
 
-{/* <PostPutPatchDel/>  */}
+{/* <LoginWithProps isLoggedIn={true} /> */}
+{/* <UseMemo/> */}
+<UseCallBackParent/>
 
-<LoginWithProps isLoggedIn={true} />
 
-        </>
+ </>
 
 
 
